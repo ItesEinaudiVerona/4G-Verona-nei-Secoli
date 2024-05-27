@@ -19,27 +19,29 @@ h6 {
 /* unvisited link */
 .w3-button {
     color: green !important;
-  }
+}
 
-  .w3-button:hover {
+.w3-button:hover {
     color: red !important;
-  }
+}
 
-  .w3-button:hover {
+.w3-button:hover {
     color: yellow !important;
-  }
+}
 
 
-.w3-bar-block #active{
+.w3-bar-block #active {
     background-color: yellow !important;
 }
-.w3-bar-block #active:hover{
+
+.w3-bar-block #active:hover {
     background-color: green !important;
 }
+
 ul {
     line-height: 2em;
     list-style: none;
-    
+
 }
 
 ul li {
@@ -50,6 +52,10 @@ ul li {
 ul li::first-letter {
     text-transform: uppercase;
     font-weight: bold;
+}
+
+#image_ordered_list {
+    padding: 10px;
 }
 
 ol {
@@ -128,18 +134,20 @@ em {
 .it-brand-wrapper {
     padding: 32px 0;
     display: flex;
-    
+
 }
 
-.it-brand-wrapper img{
-  float: inline-start;
-    
+.it-brand-wrapper img {
+    float: inline-start;
+
 }
 
-.it-brand-wrapper .it-brand-text h2, .it-brand-wrapper .it-brand-text h3 {
+.it-brand-wrapper .it-brand-text h2,
+.it-brand-wrapper .it-brand-text h3 {
     font-size: 10pt;
     padding-left: 100px;
 }
+
 .title {
     padding: 2px;
     float: inline-start;
