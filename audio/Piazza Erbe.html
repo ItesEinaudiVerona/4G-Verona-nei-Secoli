@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Verona nei secoli</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.cdnfonts.com/css/ancient" rel="stylesheet">
+</head>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-animate-left"
+        style="z-index:3;width:300px; background-color: rgb(237, 243, 244);" id="mySidebar"><br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+                title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <a href="HomeEn.html"><img src="images/FlagEN.png" style="width:20%; margin: 5%;" class="w3-round"></a>
+            <a href="index.html"><img src="images/FlagIT.png" style="width:20%; margin: 5%;" class="w3-round"></a>
+            <br>
+            <img src="images/StemmaMontecchi.png" style="width:20%;" class="w3-round"><img
+                src="images/StemmaCapuleti.png" style="width:30%;" class="w3-round"><img
+                src="images/StemmaAlighieri.png" style="width:20%;" class="w3-round">
+            <br>
+            <h4><b id="Verona-nei-secoli">VERONA NEI SECOLI</b></h4>
+            <h4><b>Presenza di <em>Dante</em> e <em>Shakespeare</em> a Verona</b></h4>
+
+            <div class="w3-bar-block">
+                <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
+                        class="uil uil-home"></i> Home</a>
+                <a href="#Piazza Erbe" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"
+                    id="active"><i class="uil uil-map-marker"></i> Piazza Erbe</a>
+                <a href="Chiesa di Sant'Anastasia.html" onclick="w3_close()"
+                    class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="uil uil-map-marker"></i> Chiesa di
+                    Sant'Anastasia</a>
+                <a href="piazzaDeiSignori.html" onclick="w3_close()"
+                    class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="uil uil-map-marker"></i> Piazza dei
+                    Signori</a>
+                <a href="Casa di Giulietta.html" onclick="w3_close()"
+                    class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="uil uil-map-marker"></i> Casa di
+                    Giulietta</a>
+                <a href="Porta Borsari.html" onclick="w3_close()"
+                    class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="uil uil-map-marker"></i> Porta
+                    Borsari</a>
+            </div>
+
+            <div class="w3-panel w3-large">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div>
+            <img src="images/Piazza Erbe/piazza-erbe fumetto.jpg" alt="" style="width: 100%;">
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+                    class="fa fa-bars"></i></span>
+            <div class="w3-container"
+                style="background-color: rgb(225, 233, 240); display: flex; justify-content: space-between; max-width: 100%;">
+                <div class="animation">
+                    <button onclick="history.back()" style="background-color: transparent; border: none;">
+                        <img class="animation--Gl63I"
+                            srcset="images/gif/ManWalkBack.webp 1x, images/gif/ManWalkBack.webp 2x"
+                            src="images/gif/ManWalkBack.webp" alt="Medievale, Uomo, 3D, Freccia"
+                            style="max-width: 480px; max-height: 270px; margin: 20px; border-radius: 35%; cursor: pointer;">
+                    </button>
+                </div>
+
+                <!-- ======================================= Titolo pagina con animazioni ========================================================-->
+
+                <h1 class="title">
+                    <span class="title-word title-word-1">PIA</span><span class="title-word title-word-2">ZZA
+                    </span><span class="title-word title-word-3">ER</span><span
+                        class="title-word title-word-4">BE</span>
+                </h1>
+
+                <div class="animation">
+                    <button onclick="history.forward()" style="background-color: transparent; border: none;">
+                        <img id="go-forward" class="animation--Gl63I"
+                            srcset="images/gif/ManWalkForward.webp 1x, images/gif/ManWalkForward.webp 2x"
+                            src="images/gif/ManWalkForward.webp" alt="Medievale, Uomo, 3D, Freccia"
+                            style="max-width: 480px; max-height: 270px; margin: 20px; border-radius: 35%; cursor: pointer;">
+                    </button>
+                </div>
+            </div>
+            <div class="w3-section w3-bottombar w3-padding-10"></div>
+        </header>
+        <!-- ======================================= Chiusura titolo ed animazioni ========================================================-->
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="images/Piazza Erbe/piazza erbe.jpg" alt="Piazze delle Erbe" style="width:100%"
+                    class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Piazza Erbe</b></p>
+                    <p>Piazza delle Erbe è la piazza più antica di Verona, da secoli fulcro della vita sociale,
+                        economica e religiosa della città. Parte del suo fascino deriva dall’armonica sovrapposizione di
+                        palazzi, torri, statue ed elementi architettonici di varie epoche e stili, che crea un collage
+                        unico nel suo genere. Essa fu costruita sui resti dell’antico foro romano che comprendeva un
+                        Campidoglio, Templi e Terme, collegati da un porticato che ospitava numerose botteghe. Con gli
+                        Scaligeri divenne un vivace centro di arte e commercio e durante la dominazione veneziana prima
+                        e quella austriaca poi, accolse il tribunale civile e penale, rimanendo comunque sempre il
+                        nucleo della vita sociale cittadina.
+                    </p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="images/Piazza Erbe/torre dei lamberti.jpg" alt="Piazze delle Erbe" style="width:100%"
+                    class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Torre dei Lamberti</b></p>
+                    <p>Una delle torri superstiti del Palazzo della Ragione o del Comune è l’unica torre privata di
+                        Verona, eretta dalla famiglia dei Lamberti (di cui non si conosce praticamente nulla) nel 1172,
+                        in tufo e cotto, seguendo lo stile romanico tipico dell'epoca.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="images/Piazza Erbe/Domus Mercatorum.jpeg" alt="Piazze delle Erbe" style="width:100%"
+                    class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Domus Mercatorum</b></p>
+                    <p>Situata nel cuore della città scaligera, la Domus Mercatorum è un edificio medievale voluto dalla
+                        signoria degli Scaligeri come luogo in cui le corporazioni delle arti e dei mestieri potessero
+                        incontrarsi per commerciare e discutere i vari aspetti della vita economica della città.
+                        Imponente ed elegante è uno degli elementi architettonici fondamentali per la caratterizzazione
+                        di Piazza delle Erbe.
+                        La Domus Mercatorum fu ampliata e consolidata dai successori di Alberto, Cangrande e soprattutto
+                        Cansignorio e in seguito alterata nelle sue forme da interventi posteriori. Questo anche poiché
+                        nel corso dei secoli l'edificio su Piazza delle Erbe continuò ad essere utilizzata divenendo la
+                        Camera di Commercio di Verona. A fine ottocento la Domus Mercatorum venne restaurata e
+                        riportata, con la sua merlatura ghibellina, a un aspetto medievale molto caratteristico anche se
+                        piuttosto artefatto. Al di là di tutto, con il suo bel porticato essa è oggi uno degli elementi
+                        architettonici fondamentali per la caratterizzazione di Piazza delle Erbe, l'antico centro di
+                        Verona.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="images/Piazza Erbe/Fontana della Madonna.jpg" alt="Piazze delle Erbe" style="width:100%"
+                    class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Fontana di Madonna Verona</b></p>
+                    <p>La fontana di Madonna Verona è uno dei monumenti cittadini più rappresentativi e amati dai
+                        veronesi.Si tratta di una personificazione simbolica della stessa città di Verona, posta al
+                        centro di piazza Erbe.
+                        Fu costruita da Cansignorio, ultimo dei grandi signori della famiglia Della Scala, nel 1368,
+                        utilizzando una grande vasca termale romana in marmo rosso di Verona e sormontadola con una
+                        statua il cui corpo anche era un originale romano, forse addiritura una delle statue acroteriali
+                        che decoravano il campidoglio nel foro.
+                        La testa e le braccia, mancanti, furono aggiunte al momento della realizzazione della fontana.
+                        Verona risulta quindi raffigurata come una bella regina (mea domina appunto, contratto in
+                        madonna, l'appellativo con cui venivano chiamate le nobildonne nel medioevo) il cui corpo, come
+                        le origini della città, è di epoca romana mentre capo e braccia risalgono al successivo momento
+                        di massimo splendore della città, il '300 con la Signoria Scaligera. Nello stelo che regge il
+                        piedistallo della statua sono raffigurati i volti dei quattro regnanti della città: il mitico
+                        Vero, Alboino re dei Longobardi, Berengario e nuovamente Verona regina. La statua regge un
+                        cartiglio in rame con la seguente iscrizione: EST JUSTI LATRIX URBS HAEC ET LAUDIS AMATRIX.
+                        Ossia "E’ città che dispensa giustizia ed ama la lode", antico motto della città.</p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="images/Piazza Erbe/Palazzo della Ragione.jpeg" alt="Norway" style="width:100%"
+                    class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Palazzo della Ragione</b></p>
+                    <p>Cenni storici
+                        Il maestoso palazzo che fu sede del Comune, accanto a Piazza delle Erbe, e che ha ospitato a
+                        lungo gli uffici della Pretura e la Corte d'Assise. Si tratta di un imponente complesso, a
+                        pianta pressoché quadrangolare, con cortile centrale. Il complesso è ubicato fra Piazza delle
+                        Erbe, Piazza dei Signori, Via Dante e via Cairoli, occupando in tal modo l'angolo sud-est di
+                        quello che doveva essere l'antico foro romano, ossia Piazza Erbe. Due lapidi recenti, murate
+                        all'esterno del palazzo, indicano per l’erezione del palazzo due date discordi fra loro (1138 e
+                        1193). Nel 1218 un terribile incendio investì gran parte del palazzo, ma questo fu rifabbricato
+                        l’anno successivo. Durante il dominio Veneto, il palazzo divenne sede – oltre che del Comune –
+                        anche di tribunali civili e penali, di prigioni, del Collegio dei Notai - con una propria
+                        Cappella che tuttora esiste - degli uffici del dazio della seta, della Camera Fiscale, dei
+                        pubblici granai, dei depositi del sale, degli uffici della Sanità e di altri. Al 1447 risale
+                        l'erezione della “Scala della Ragione”, costruita all'interno del cortile sotto la Torre dei
+                        Lamberti. La scala è una delle prime strutture aggiunte all'architettura del cortile del
+                        palazzo.
+
+                        Architettura ed arte
+                        Difficile oggi dire come si presentasse originariamente il complesso che si sviluppa su tre
+                        piani. Par di capire che sopra il portico e i locali inferiori, erano state ricavate grandi
+                        sale, destinate a pubbliche riunioni. Un partimento di colonne sostiene ancora gli archi a tutto
+                        sesto . Si tratta di una delle poche architetture di pregio conservate all’interno del palazzo,
+                        come lo fu la Cappella dei Notai. I numerosi restauri ottocenteschi ebbero la pretesa di portare
+                        l'edificio alla condizione originale;
+
+                        N.d.R. Dal 12 aprile 2014 è la sede della Galleria d’Arte Moderna.
+                    </p>
+                </div>
+            </div>
+            <!--
+            <div class="w3-third w3-container">
+                <img src="images/Cangrande/romeo_e_giulietta_bacio.jpg" alt="Norway" style="width:100%"
+                    class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Romeo e Giulietta</b></p>
+                    <p>«Vieni a veder Montecchi e Cappelletti,
+                        Monaldi e Filippeschi, uom sanza cura:
+                        color già tristi, e questi con sospetti!»</p>
+                </div>
+            </div>
+            -->
+        </div>
+
+        <!-- Pagination -->
+        <!--
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div>
+-->
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-32 w3-dark-grey">
+            <div class="w3-row-padding">
+                <div class="w3-third">
+                    <h3 style="text-align: center;">ITES EINAUDI</h3>
+                    <div class="it-brand-wrapper">
+                        <a href="https://www.einaudivr.edu.it/" title="ITES Luigi Einaudi" rel="home">
+                            <img class="icon"
+                                src="https://www.einaudivr.edu.it/wp-content/uploads/2019/11/export_rep.png"
+                                alt="ITES Luigi Einaudi">
+                            <div class="it-brand-text">
+                                <h2 class="no_toc">ITES Luigi Einaudi</h2>
+                                <h3 class="no_toc d-none d-md-block">Una scuola per il tuo domani</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <p class="w3-small">L’Istituto Luigi Einaudi è un Istituto Tecnico Economico Statale.
+
+                        La struttura degli Istituti Tecnici è stata modificata dal Regolamento emanato con D.P.R.
+                        88/2010 che prevede per gli Istituti del settore economico gli indirizzi “Amministrazione
+                        Finanza e Marketing” e “Turismo”.
+
+                        Nel nostro istituto è attivo, all’interno dell’indirizzo Amministrazione Finanza e marketing,
+                        l’articolazione “Relazioni internazionali per il Marketing”, oltre all’indirizzo “Turismo”.</p>
+                    <p>Powered by <a href="#" target="_blank">Prof. Andrea De
+                            Luca</a></p>
+                    <p><b>Content managers:</b> M. Claudia, B. Emma, V. Sophie, C. Margherita.</p>
+
+                </div>
+
+                <div class="w3-third">
+                    <h3>BLOG POSTS</h3>
+                    <ul class="w3-ul w3-hoverable" style="line-height: 1.3em;">
+                        <li class="w3-padding-16">
+                            <img src="images/Blog Post/Giulietta.jpg" class="w3-left w3-margin-right"
+                                style="width:150px">
+                            <span class="w3-large">Giulietta e Romeo</span><br>
+                            <span class="w3-small">Il mito di Giulietta e Romeo viene celebrato in spettacoli teatrali e
+                                rivisitazioni
+                                durante tutto l’anno. La rassegna più famosa è il Festival shakespeariano che si svolge
+                                ogni estate al Teatro Romano, secondo in Europa dopo quello di Stratford on Avon.
+
+                                Tra le iniziative di accoglienza turistica maggiormente apprezzate dai visitatori
+                                Benvenuti a Verona. Romeo e Giulietta una storia d’amore: le più belle scene del dramma
+                                shakespeariano vengono recitate durante il periodo estivo, in italiano e in inglese,
+                                nella loro cornice ideale, il cortile e il balcone di Giulietta, dove la leggenda vuole
+                                che i due innamorati si siano realmente conosciuti ed amati.</span>
+                        </li>
+                        <li class="w3-padding-16">
+                            <img src="images/Blog Post/Arte e Tradizione.jpg" class="w3-left w3-margin-right"
+                                style="width:150px">
+                            <span class="w3-large">Presepi e tradizioni</span><br>
+                            <span class="w3-small">Per tutta la durata delle feste natalizie si tiene la Rassegna
+                                Internazionale dei
+                                Presepi nell’Arte e nella Tradizione, allestita negli arcovoli dell’Arena.
+                                La mostra ospita ogni anno circa 400 esemplari provenienti dai più importanti musei
+                                internazionali e da collezioni private. L’allestimento è realizzato con suggestivi
+                                effetti speciali ed offre un singolare spettacolo, che richiama ogni anno decine di
+                                migliaia di visitatori.
+                                Tocatì, Festival Internazionale dei giochi di strada
+                                Nel periodo natalizio piazza Bra ospita anche la Stella cometa, una grande
+                                archi-scultura in metallo dell’architetto Rinaldo Olivieri, che spunta dal centro
+                                dell’Arena disegnando uno spettacolare arco luminoso alto settanta metri. Ideata per
+                                l’inaugurazione della prima Rassegna internazionale dei Presepi, la Stella cometa è
+                                divenuta il simbolo più famoso del Natale veronese.
+                                E’ entrato a pieno titolo nelle tradizioni veronesi anche il Tocatì, festival
+                                internazionale dei giochi di strada, che si tiene a fine settembre nel centro storico
+                                della città: per tre giorni spariscono le auto per lasciare posto a decine di giochi
+                                tradizionali, che coinvolgono grandi e piccini. Ogni anno il Tocatì accoglie una Nazione
+                                ospite d’onore, che presenta la propria cultura e le proprie tradizioni attraverso
+                                spettacolari esibizioni.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w3-third">
+                    <h3>POPULAR TAGS</h3>
+                    <p>
+                        <span class="w3-tag w3-black w3-margin-bottom">#verona</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">#italy</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">#italia</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">#veneto</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">#verona</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">#lagodigarda</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">#veronaitaly</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">#veronacentro</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">#veronafood</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">#piazzabra</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">#romeoegiulietta</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">#romeoandjuliet</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">#wine</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">#gardasee</span>
+                    </p>
+                </div>
+
+            </div>
+        </footer>
+
+        <div class="w3-black w3-center w3-padding-24">Powered by <a href="#" title="ITES EINAUDI" target="_blank"
+                class="w3-hover-opacity">Prof. Andrea De Luca</a></div>
+
+        <!-- End page content -->
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
